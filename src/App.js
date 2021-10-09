@@ -45,8 +45,13 @@ function App() {
   }
 
   return (
+    
+    <React.Fragment>
+    <h1 className="title">Tic-Tac-Toe</h1>
     <div className="App">
-      {/* {console.log(grid)} */}
+
+    <div className="App">
+     
 
       <Grid
         winner={winner}
@@ -54,7 +59,9 @@ function App() {
         grid={grid}
         changeBlock={changeBlock}
       />
+      
     </div>
+    </React.Fragment>
   );
 }
 
