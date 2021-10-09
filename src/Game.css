@@ -1,0 +1,42 @@
+.container {
+  display: flex; /* establish flex container */
+  flex-wrap: wrap; /* enable flex items to wrap */
+  justify-content: space-around;
+  width: 300px;
+  margin: auto;
+}
+
+.containerItem {
+  flex: 0 0 32%; /* don't grow, don't shrink, width */
+  height: 100px;
+  margin-bottom: 5px;
+  background-color: yellow;
+  border-radius: 5px;
+  font-size: 50px;
+  color: rgb(40, 168, 219);
+}
+
+.containerItem:hover {
+  background-color: antiquewhite;
+  box-shadow: 5px 5px 8px rgb(208, 255, 0);
+}
+
+.win {
+  flex: 0 0 32%; /* don't grow, don't shrink, width */
+  height: 100px;
+  margin-bottom: 5px;
+  background-color: rgb(151, 228, 79);
+  font-size: 50px;
+}
+
+.App {
+  min-width: 350px;
+  height: 500px;
+  width: 50%;
+  margin: auto;
+  background-color: orange;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px rgb(255, 94, 0);
+}
